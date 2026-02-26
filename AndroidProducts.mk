@@ -6,7 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_kona.mk
+    $(LOCAL_DIR)/omni_kona.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_kona-userdebug 
+    omni_kona-user \
+    omni_kona-userdebug \
+    omni_kona-eng
