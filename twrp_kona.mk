@@ -16,7 +16,7 @@ $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, device/qualcomm/kona/device.mk)
 
 PRODUCT_DEVICE := kona
-PRODUCT_NAME := omni_kona
+PRODUCT_NAME := twrp_kona
 PRODUCT_BRAND := qti
 PRODUCT_MODEL := Kona for arm64
 PRODUCT_MANUFACTURER := qualcomm
