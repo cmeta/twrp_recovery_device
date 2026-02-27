@@ -10,13 +10,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from kona device
 $(call inherit-product, device/qualcomm/kona/device.mk)
 
 PRODUCT_DEVICE := kona
-PRODUCT_NAME := omni_kona
+PRODUCT_NAME := twrp_kona
 PRODUCT_BRAND := qti
 PRODUCT_MODEL := Kona for arm64
 PRODUCT_MANUFACTURER := qualcomm
